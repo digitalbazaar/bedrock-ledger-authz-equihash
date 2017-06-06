@@ -1,0 +1,29 @@
+{
+  "name": "bedrock-ledger-authz-equihash-test",
+  "version": "0.0.1-0",
+  "private": true,
+  "description": "bedrock-ledger-authz-equihash",
+  "main": "./lib",
+  "scripts": {
+    "test": "node --preserve-symlinks test test",
+    "watch": "grunt watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-authz-equihash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-authz-equihash/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-ledger-authz-equihash#readme",
+  "dependencies": {
+    "async": "^2.4.1",
+    "bedrock": "^1.4.1",
+    "bedrock-ledger": "^0.3.5",
+    "bedrock-mongodb": "^3.2.3",
+    "bedrock-permission": "^2.4.3",
+    "bedrock-test": "^1.2.0",
+    "grunt": "^1.0.1",
+    "jsonld-signatures": "^1.2.1"
+  }
+}

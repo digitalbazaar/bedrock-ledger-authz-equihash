@@ -1,0 +1,20 @@
+{
+  "name": "bedrock-ledger-authz-equihash",
+  "version": "0.0.1-0",
+  "description": "bedrock-ledger-authz-equihash",
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-authz-equihash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/bedrock-ledger-authz-equihash/issues"
+  },
+  "homepage": "https://github.com/digitalbazaar/bedrock-ledger-authz-equihash#readme",
+  "peerDependencies": {
+    "bedrock": "^1.4.1",
+    "bedrock-ledger": "^0.3.5"
+  },
+  "dependencies": {
+  }
+}
